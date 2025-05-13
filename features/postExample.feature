@@ -6,12 +6,10 @@ Feature: Simple POST example
     """
     - CreateFolderAction:
 
-         Folder: librarian://Main/Marina/TestFolder
+         Folder: librarian://Main/QA/Keith/TestFolder
 
          OverwriteFileOperation: Replace
 
          Name: Create Unique Folder
     """
     Then I expect a value 200
-
-
